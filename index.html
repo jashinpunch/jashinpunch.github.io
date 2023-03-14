@@ -12,15 +12,28 @@
    margin-right: 5px;
    font-family: 'Noto Sans KR', sans-serif;
   }
+  .bg {
+  /* The image used */
+  background-image: url("img_sky.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
  </style>
  <h1>일기</h1>
 </head>
 
-<body style="background-color:#ccccff;">
+<body>
  <script src="sakura-js/dist/sakura.min.js"></script>
     <script>
       var sakura = new Sakura('body');
     </script>
+ <div class="bg"></div>
 <h2>3월</h2>
 <div>
 <details>
