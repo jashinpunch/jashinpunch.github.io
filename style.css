@@ -1,0 +1,22 @@
+h1 {text-align: center; margin-top: 10px;}
+html, body{
+    width: 100%;
+}
+.text{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.bg {
+    /* The image used */
+    background-image: url("img_sky.jpeg");
+
+    /* Full height */
+    height: 50%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
