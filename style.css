@@ -29,7 +29,7 @@ html, body{
 }
 
 .wrapper.one {
-    background-color: #1a1a1a;
+    background-color: white;
 }
 .drop-main {
     display: flex;
@@ -41,27 +41,27 @@ html, body{
 .d {
     opacity: 0;
     animation: drop 0.4s linear forwards;
-    color: #00ffff;
+    color: black;
 }
 .r {
     opacity: 0;
     animation: drop 0.4s linear forwards 0.2s;
-    color: #99ffff;
+    color: black;
 }
 .o {
     opacity: 0;
     animation: drop 0.4s linear forwards 0.4s;
-    color: #ccffff;
+    color: black;
 }
 .p {
     opacity: 0;
     animation: drop 0.4s linear forwards 0.6s;
-    color: #ffffff;
+    color: black;
 }
 .s {
     opacity: 0;
     animation: drop 0.4s linear forwards 0.8s;
-    color: #de4040;
+    color: black;
 }
 @keyframes drop {
     0% {
