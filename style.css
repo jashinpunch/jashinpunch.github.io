@@ -28,60 +28,23 @@ html, body{
     background-size: cover;
 }
 
-.wrapper.one {
-    background-color: white;
+.wrapper.two {
+    background-color: #2c0101;
+    font-size: 6rem;
+    font-family: "Play", sans-serif;
 }
-.drop-main {
-    display: flex;
-    font-size: 7rem;
-    margin: 1.5rem;
-    justify-content: center;
-    font-family: "Russo One", sans-serif;
+.neon h1 {
+    margin: 1rem auto;
+    animation: neon 1s ease infinite;
 }
-.d {
-    opacity: 0;
-    animation: drop 0.4s linear forwards;
-    color: black;
-}
-.r {
-    opacity: 0;
-    animation: drop 0.4s linear forwards 0.2s;
-    color: black;
-}
-.o {
-    opacity: 0;
-    animation: drop 0.4s linear forwards 0.4s;
-    color: black;
-}
-.p {
-    opacity: 0;
-    animation: drop 0.4s linear forwards 0.6s;
-    color: black;
-}
-.s {
-    opacity: 0;
-    animation: drop 0.4s linear forwards 0.8s;
-    color: black;
-}
-@keyframes drop {
-    0% {
-        transform: translateY(-200px);
-        opacity: 0;
+@keyframes neon {
+    0%,
+    100% {
+        text-shadow: 0 0 10px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 2px #fed128, 2px 2px 2px #806914;
+        color: #f5efcb;
     }
     50% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
-    65% {
-        transform: translateY(-17px);
-        opacity: 1;
-    }
-    75% {
-        transform: translateY(-22px);
-        opacity: 1;
-    }
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
+        text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+        color: #eda0d3;
     }
 }
